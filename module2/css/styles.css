@@ -29,7 +29,8 @@ h2 {
 }
 .menuitemheader {
     font-size: 1.25em;
-    float: right;
+    position: absolute;
+    right:0px;
     text-align: center;
     margin-right: -1px;
     margin-top: -1px;
@@ -46,8 +47,9 @@ h2 {
     background-color: #E1CB90
 }
 .menuitemcontent {
-    clear:right;
-    margin-top:10px;
+    position:relative;
+    top: 20px;
+    margin-bottom:20px;
     padding: 10px;
 }
 p {
