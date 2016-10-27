@@ -32,10 +32,9 @@ h2 {
     position: absolute;
     right:0px;
     text-align: center;
-    margin-right: -1px;
-    margin-top: -1px;
     width:200px;
-    border: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 #menuitem1 .menuitemheader {
     background-color: #CC8D8F;
@@ -51,6 +50,9 @@ h2 {
     top: 20px;
     margin-bottom:20px;
     padding: 10px;
+}
+.clear {
+    clear:both;
 }
 p {
   width: 50px;
