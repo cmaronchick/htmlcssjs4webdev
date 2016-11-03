@@ -1,0 +1,29 @@
+#food-navbar {
+    background-color: gray;
+}
+#food-navbar a {
+    color: ghostwhite;
+}
+#food-navbar hr {
+    width: 96%;
+    color: ghostwhite;
+    margin:0 auto;
+}
+h1, h3 {
+    margin-top: 0;
+    text-align: center;
+}
+#menu {
+    padding: 0 15px 15px 15px;
+}
+
+#menuContent {
+    background-color:lightgray;
+    height:1000px;    
+}
+
+@media (min-width: 768px) {
+    #food-navbar {
+        display: none!important;
+    }
+}

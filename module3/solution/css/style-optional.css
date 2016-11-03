@@ -1,0 +1,10 @@
+.menuColumn {
+    margin-bottom: 20px;
+}
+.menuContent {
+    padding: 15px;
+    border: 1px solid #000;
+    background-color: lightgray;
+    margin: 0 10px;
+    min-height: 700px;
+}
